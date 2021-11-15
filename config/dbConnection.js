@@ -4,10 +4,11 @@ var comMysql = function () {
         host: 'localhost',
         user: 'root',
         password: 'e#mysql#',
-        database: 'portal_noticias'
+        database: 'noticias'
     });
 }
 
 module.exports = function () {
     return comMysql;
+    console.log("online");
 }
